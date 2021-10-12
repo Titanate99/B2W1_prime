@@ -28,7 +28,7 @@ for i in range(len(amp)):
 #   print(amp)
 
 plt.plot(time,amp)
-np.save('test', (time,amp))
+#np.save('test', (time,amp))
 
-a = np.load("test.npy")
-print(a)
+#a = np.load("test.npy")
+#print(a)
